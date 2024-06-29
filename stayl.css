@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.btn {
+    border: 2px solid red;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #DE2E54;
+    background-color: white;
+    padding: 12px 24px;
+}
+
+.btn:hover {
+    background-color: #DE2E54;
+    color: white;
+}
+
+.hero {
+    background-image: url("./img/image\ 4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.hero h1{
+    color: #fff;
+
+}
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.s2{
+    padding: 40px;
+}
+.s2 h1 {
+     max-width: 560px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    margin: 0px 500px;
+    color: rgb(0, 0, 0);
+     margin-bottom: 50px;
+}
+.ti{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    align-items: center;
+    margin: 0px 0px 0px 200px;
+    gap: 50px;
+}
+.tit h2{
+    margin: 20px 0;
+}
+
+
+
+
+
+.s3{
+    background-color: #0EB4C1;
+
+}
+.soloxa{
+    text-align: center;
+    color: black;
+}
+
+.mi{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+.inputs{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+    transition: 1.18s;
+}
+input{
+    width: 315px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 10px;
+    transition: 1.5s;
+}
+.mi button{
+    width: 315px;
+    height: 30px;
+    background-color: rgb(42, 230, 42);
+    border: none;
+}
+a,p,h1,h2,h3,h4,h5{
+    font-family: "Open Sans", sans-serif;
+}
